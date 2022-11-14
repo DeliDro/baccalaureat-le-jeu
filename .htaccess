@@ -1,0 +1,18 @@
+# BLOCAGE AFFICHAGE DE REPERTOIRE
+Options -Indexes
+
+# REECRITURE D'URL
+#-- Suivre les liens symboliques
+Options +FollowSymlinks
+
+#-- Activation du module de réécriture d'URL
+RewriteEngine On
+
+#-- Redirections vers des pages
+RewriteRule ^nouvelle-partie /nouvelle_partie.php [L]
+RewriteRule ^nouveau-joueur /nouveau_joueur.php [L]
+
+#-- Suppression des extensions .php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(([A-Za-z0-9\-]+/)*[A-Za-z0-9\-]+)?$ $1.php

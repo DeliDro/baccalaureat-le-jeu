@@ -1,0 +1,18 @@
+On essaie de simuler le jeu du baccalauréat.
+Les règles du jeu sont
+    01. Le nombre de joueurs est illimité.
+    02. Chaque joueur doit renseigner des champs avec un exemple.
+    03. Les champs sont fille, garçon, ville, pays, fruit, animal, métier.   
+    04. Une lettre est tirée au sort dans l'alphabet, souvent (à voir) à l'exception de certaines réputées difficiles comme Q, W, X.
+    05. Un temps est déterminé pour remplir les champs.
+    06. Si un joueur déclare avoir terminé avant le temps, les autres joueurs n'ont plus le droit d'écrire.
+    07. Chaque champ correctement renseigné vaut 5 points, donc un total de 35 points pour chaque lettre tirée.
+    08. Un champ mal renseigné vaut 0 points.
+    09. Si plusieurs (>2) joueurs ont rempli un champ avec la même valeur, ils ont 0 points au champ. (à voir)
+    10. La validation d'un champ est décidée par les autres joueurs.
+
+Fonctionnalités :
+    - Faire l'architecture
+    - Implémenter l'API
+    - Faire une interface de consommation
+    - Publier ♥
